@@ -2,9 +2,7 @@
 import feedparser
 import datetime
 import codecs
-import gettext
 import newspaper
-from tldextract import tldextract
 from newspaper import Article
 
 #pull recent Instapaper links and create RTF summary file - replace URL with your 'unread' RSS feed
